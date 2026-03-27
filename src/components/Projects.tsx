@@ -9,7 +9,7 @@ const projects = [
       "An intelligent system that detects diseases using advanced image processing and machine learning techniques. Built CNN models for classification of medical scans with high accuracy.",
     tech: ["Python", "TensorFlow", "OpenCV", "ML"],
     role: "Model building, training & testing",
-    image: projectMedical,
+    image: null,
     featured: true,
   },
   {
