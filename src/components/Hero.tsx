@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import Typewriter from "./Typewriter";
 
 const Hero = () => {
   return (
@@ -16,14 +17,14 @@ const Hero = () => {
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full bg-accent/10 blur-3xl animate-float" style={{ animationDelay: "3s" }} />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <motion.p
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="font-mono text-sm text-primary mb-4 tracking-widest uppercase"
+          className="text-sm mb-4 tracking-widest uppercase h-6"
         >
-          AI &amp; ML Enthusiast · Full Stack Learner
-        </motion.p>
+          <Typewriter />
+        </motion.div>
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
