@@ -1,7 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { ExternalLink, Github } from "lucide-react";
-import projectMedical from "@/assets/project-medical.jpg";
 
 const projects = [
   {
